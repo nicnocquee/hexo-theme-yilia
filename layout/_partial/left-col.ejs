@@ -10,7 +10,7 @@
 		</hgroup>
 
 		<% if (theme.subtitle){ %>
-		<p class="header-subtitle"><%=theme.subtitle%></p>
+		<p class="header-subtitle"><%- theme.subtitle%></p>
 		<%}%>
 
 		<%if(theme.tagcloud){%>
@@ -26,6 +26,9 @@
 		<div class="switch-area">
 			<section class="first-part">
 				<nav class="header-menu">
+					<% if (theme.app_store_url){ %>
+						<div class="appstore"><a href="<%=theme.app_store_url%>"><img src="http://f.cl.ly/items/163M0N1h0o2v24362I1E/availableontheappstore.png"></a></div>
+					<%}%>
 					<ul>
 					<% for (var i in theme.menu){ %>
 						<li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>

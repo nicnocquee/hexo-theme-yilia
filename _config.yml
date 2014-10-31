@@ -1,7 +1,9 @@
 # Header
+app_store_url: "https://itunes.apple.com/us/app/delightful-trovebox-photo/id878230610?ls=1&mt=8"
+
 menu:
-  App Store: "https://itunes.apple.com/us/app/delightful-trovebox-photo/id878230610?ls=1&mt=8"
-  About Delighftul: "http://www.getdelightfulapp.com"
+#  Available on the App Store: "https://itunes.apple.com/us/app/delightful-trovebox-photo/id878230610?ls=1&mt=8"
+#  About Delighftul: "http://www.getdelightfulapp.com"
   # 随笔: /tags/随笔
 
 # SubNav
