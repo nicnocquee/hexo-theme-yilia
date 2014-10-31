@@ -1,19 +1,19 @@
 # Header
 menu:
-  主页: /
-  所有文章: /archives
+  App Store: "https://itunes.apple.com/us/app/delightful-trovebox-photo/id878230610?ls=1&mt=8"
+  About Delighftul: "http://www.getdelightfulapp.com"
   # 随笔: /tags/随笔
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  facebook: "#"
+  github: "https://github.com/delightfulapp/delightful"
+#  weibo: "#"
+#  rss: "/atom.xml"
+#  facebook: "#"
   # google: "#"
-  # twitter: "#"
+  twitter: "https://twitter.com/delightfulapp"
   # linkedin: "#"
-
+  rss: "/atom.xml"
 rss: /atom.xml
 
 # Content
@@ -25,10 +25,10 @@ fancybox: true
 favicon: /favicon.png
 
 #你的头像
-avatar: "https://avatars2.githubusercontent.com/u/2024949?v=2&s=150"
+avatar: "http://www.getdelightfulapp.com/img/delightful-icon-small.png"
 #是否开启分享
-share: true
+share: false
 #是否开启多说评论，填写你在多说申请的项目名称
-duoshuo: true
+duoshuo: false 
 #是否开启云标签
-tagcloud: true
+tagcloud: false
